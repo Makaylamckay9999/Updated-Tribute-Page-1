@@ -1,0 +1,44 @@
+body {
+  font-family: "Times New Roman", serif;
+  line-height: 1.6;
+  background-color:#F7E1FF
+}
+
+header {
+    color:black;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+  margin-inline: auto;
+}
+
+h1 {text-align: center;
+border-style: groove;
+padding: auto;
+margin: auto;
+}
+
+p{text-align: center;
+color:#112A46
+}
+
+.card {border-style:outset;
+  border-color: black;
+    border-spacing: 23px;
+    padding: auto;
+    border-radius: 5px;
+    margin: 23px;
+    border-spacing: auto;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+ul,li{text-align: center
+}
+
