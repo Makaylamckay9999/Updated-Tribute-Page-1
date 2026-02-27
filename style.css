@@ -1,7 +1,9 @@
 body {
-  font-family: "Times New Roman", serif;
+  font-family:"Bodoni Moda", system-ui, sans-serif;
   line-height: 1.6;
-  background-color:#F7E1FF
+  background-color:#F7E1FF;
+  font-size: 17px;
+  margin:0;
 }
 
 header {
@@ -12,8 +14,7 @@ header {
 
 main {
   max-width: 65ch;
-  margin: 0 auto;
-  padding: 1.5rem;
+  padding: 2rem;
   text-align: center;
   margin-inline: auto;
 }
@@ -21,11 +22,23 @@ main {
 h1 {text-align: center;
 border-style: groove;
 padding: auto;
-margin: auto;
+margin: 0 0 1rem 0;
 }
 
+h2 {
+  font-size: 1.5rem;
+  margin: 2.5rem 0 0.75rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 2.5rem 0 0.75rem 0;
+}
+
+
 p{text-align: center;
-color:#112A46
+color:#112A46;
+margin: 0 0 1.25rem 0;
 }
 
 .card {border-style:outset;
